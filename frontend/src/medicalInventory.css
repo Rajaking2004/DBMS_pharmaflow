@@ -1,0 +1,71 @@
+/* medicalInventory.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .medicines-container {
+    margin-top: 20px;
+  }
+  
+  .medicines-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .medicines-container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .medicines-container li span {
+    margin-right: 10px;
+  }
+  
+  .medicines-container li button {
+    padding: 6px 12px;
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .medicines-container li button:hover {
+    background-color: #bd2130;
+  }
+  
