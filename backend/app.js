@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 // Use the medicine routes
 app.use('/api/manage', medicineRoutes);
 
-// MongoDB connection
+// MongoDB connection add more connection
 mongoose.connect('mongodb://localhost:27017/medicine_inventory', {
     useNewUrlParser: true,
     useUnifiedTopology: true
